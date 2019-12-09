@@ -9,7 +9,7 @@ background-color:#050719;
 body {
 background-image: linear-gradient(to right top, #051937, #004770, #007984, #00a966, #99cf22);
     /*background: linear-gradient(to left, #646881 0%, #003366 100%);*/
-
+    border-radius: 1%;
   padding: 2%;
   margin: 2%;
   
@@ -56,8 +56,12 @@ h1 {
 
 /* Content */
 .content {
-  background-color: white;
+  background-color: #dfefe2;
   padding: 10px;
+  border-radius: 1%;
+  box-shadow: 10px 10px 10px black;
+
+
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
@@ -75,9 +79,9 @@ h1 {
 }
 
 img[src="img/wings-of-fire.jpg"]{
-	width:65%;
+	width:55%;
 	height: 0.1%;
-	margin: 2% 17.5% 2% 17.5%;
+	margin: 2% 21% 2% 21%;
 	display: block;
 	border-radius: 2px;
 	box-shadow: 4px 4px 4px black;
@@ -87,9 +91,9 @@ img[src="img/wings-of-fire.jpg"]{
 
 img[src="img/da-vinci-code.jpg"]
 {
-width:55.5%;
+width:47%;
 	height: 0.1%;
-	margin: 2% 22% 2% 22%;
+	margin: 2% 25% 2% 25%;
 	display: block;
 	border-radius: 2px;
 	box-shadow: 4px 4px 4px black;
@@ -97,21 +101,22 @@ width:55.5%;
 
 img[src="img/diffsea.jpg"]
 {
-width:61.5%;
+width:52%;
 	height: 0.1%;
-	margin: 2% 20% 2% 20%;
+	margin: 2% 24% 2% 24%;
 	display: block;
 	border-radius: 2px;
 	box-shadow: 4px 4px 4px black;
 }
 
 img[src="img/godfather.jpg"]{
-width:64.2%;
+width:54.5%;
 	height: 0.1%;
-	margin: 2% 17.5% 2% 17.5%;
+	margin: 2% 21% 2% 21%;
 	display: block;
 	border-radius: 2px;
 	box-shadow: 4px 4px 4px black;
+
 
 }
 
@@ -128,14 +133,20 @@ color:#F6F740;
 h3{
 	font-size: 1.1em;
 	font-family: 'Nanum Gothic', sans-serif;
-	text-align: left;
+	text-align: center;
 
 }
 
 .bookInfo{
 font-family: 'Roboto Condensed', sans-serif;
-font-size: 1.03em;
+font-size: 103%;
 text-align: left;
 
+}
+
+img:hover{
+	opacity: 0.8;
+	cursor: pointer;
 
 }
+

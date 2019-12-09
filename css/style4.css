@@ -2,38 +2,49 @@
   box-sizing: border-box;
 }
 
+html{
+background-color:#050719;
+}
 
 body {
-  background-color: #f1f1f1;
-  padding: 20px;
-  font-family: Arial;
+background-image: linear-gradient(to right top, #051937, #004770, #007984, #00a966, #99cf22);
+    /*background: linear-gradient(to left, #646881 0%, #003366 100%);*/
+
+  padding: 2%;
+  margin: 2%;
+  
 }
 
 /* Center website */
 .main {
   max-width: 1000px;
   margin: auto;
+
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 2.7em;
   word-break: break-all;
 }
 
 .row {
   margin: 8px -16px;
+
 }
 
 /* Add padding BETWEEN each column */
 .row,
 .row > .column {
   padding: 8px;
+
+
 }
 
 /* Create four equal columns that floats next to each other */
 .column {
   float: left;
   width: 25%;
+
 }
 
 /* Clear floats after rows */ 
@@ -61,4 +72,70 @@ h1 {
   .column {
     width: 100%;
   }
+}
+
+img[src="img/wings-of-fire.jpg"]{
+	width:65%;
+	height: 0.1%;
+	margin: 2% 17.5% 2% 17.5%;
+	display: block;
+	border-radius: 2px;
+	box-shadow: 4px 4px 4px black;
+
+	
+}
+
+img[src="img/da-vinci-code.jpg"]
+{
+width:55.5%;
+	height: 0.1%;
+	margin: 2% 22% 2% 22%;
+	display: block;
+	border-radius: 2px;
+	box-shadow: 4px 4px 4px black;
+}
+
+img[src="img/diffsea.jpg"]
+{
+width:61.5%;
+	height: 0.1%;
+	margin: 2% 20% 2% 20%;
+	display: block;
+	border-radius: 2px;
+	box-shadow: 4px 4px 4px black;
+}
+
+img[src="img/godfather.jpg"]{
+width:64.2%;
+	height: 0.1%;
+	margin: 2% 17.5% 2% 17.5%;
+	display: block;
+	border-radius: 2px;
+	box-shadow: 4px 4px 4px black;
+
+}
+
+h1{
+font-family: 'Montserrat', sans-serif;
+color: #ffe9e9;
+letter-spacing: 1px;
+}
+.introText{
+font-family: 'Neucha', cursive;
+font-size: 2.1em;
+color:#F6F740;
+}
+h3{
+	font-size: 1.1em;
+	font-family: 'Nanum Gothic', sans-serif;
+	text-align: left;
+
+}
+
+.bookInfo{
+font-family: 'Roboto Condensed', sans-serif;
+font-size: 1.03em;
+text-align: left;
+
+
 }

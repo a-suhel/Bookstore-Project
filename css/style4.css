@@ -15,6 +15,44 @@ background-image: linear-gradient(to right top, #051937, #004770, #007984, #00a9
   
 }
 
+nav{
+	text-align: center;
+	font-family: 'Karla', sans-serif;
+	border-style: solid;
+	border-width: 0.5px;
+	border-radius: 15px;
+	background-color: #63595c69;
+	height: 2.5em;
+	font-variant: small-caps;
+		box-shadow: 4px 4px 4px black;
+
+}
+
+a{
+	text-decoration: none;
+	margin-right: 1.0%;
+	margin-left: 1.0%;
+	font-size: 1.4em;
+	/*border: solid 1px black;
+	border-radius: 3px;*/
+	padding-left: 0.6em;
+	padding-right:0.6em;
+	padding-top: 7px;
+	color: #F6F740;
+	float: left;
+	
+}
+a:hover{
+	color:black;
+	/*background-color: #63595C10*/
+}
+
+
+
+#searchbox{
+	float:right;
+}
+
 /* Center website */
 .main {
   max-width: 1000px;
@@ -81,7 +119,7 @@ h1 {
 img[src="img/wings-of-fire.jpg"]{
 	width:53%;
 	height: 0.1%;
-	margin: 2% 21% 2% 21%;
+	margin: 2% 22% 2% 22%;
 	display: block;
 	border-radius: 2px;
 	box-shadow: 4px 4px 4px black;
@@ -93,7 +131,7 @@ img[src="img/da-vinci-code.jpg"]
 {
 width:45.5%;
 	height: 0.1%;
-	margin: 2% 25% 2% 25%;
+	margin: 2% 26% 2% 26%;
 	display: block;
 	border-radius: 2px;
 	box-shadow: 4px 4px 4px black;
@@ -112,7 +150,7 @@ width:50.5%;
 img[src="img/godfather.jpg"]{
 width:53%;
 	height: 0.1%;
-	margin: 2% 21% 2% 21%;
+	margin: 2% 23% 2% 23%;
 	display: block;
 	border-radius: 2px;
 	box-shadow: 4px 4px 4px black;
@@ -121,7 +159,37 @@ width:53%;
 img[src="img/brief-history-of-time.jpg"]{
 	width:53%;
 	height: 0.1%;
-	margin: 2% 21% 2% 21%;
+	margin: 2% 24% 2% 24%;
+	display: block;
+	border-radius: 2px;
+	box-shadow: 4px 4px 4px black;
+
+}
+
+img[src="img/the-kite-runner.jpg"]{
+	width:51.5%;
+	height: 0.1%;
+	margin: 2% 24% 2% 24%;
+	display: block;
+	border-radius: 2px;
+	box-shadow: 4px 4px 4px black;
+
+}
+
+img[src="img/tell-me-your-dreams.jpg"]{
+	width:48.5%;
+	height: 0.1%;
+	margin: 2% 25% 2% 25%;
+	display: block;
+	border-radius: 2px;
+	box-shadow: 4px 4px 4px black;
+
+}
+
+img[src="img/chanakyas-chant.jpg"]{
+	width:51.5%;
+	height: 0.1%;
+	margin: 2% 24% 2% 24%;
 	display: block;
 	border-radius: 2px;
 	box-shadow: 4px 4px 4px black;
@@ -142,13 +210,13 @@ color:#F6F740;
 }
 h3{
 	font-size: 1.1em;
-	font-family: 'Nanum Gothic', sans-serif;
+	font-family: 'Nanum Gothic', 'Algerian' sans-serif;
 	text-align: center;
 
 }
 
 .bookInfo{
-font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Roboto Condensed', 'Verdana' sans-serif;
 font-size: 103%;
 text-align: left;
 

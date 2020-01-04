@@ -10,6 +10,7 @@ body{
 	margin-top: 0;
 	margin-bottom: 0;
 	background-color: #DDC9B4;
+	height: 100%;
 }
 
 
@@ -77,6 +78,17 @@ a:hover{
 	background-color: grey;
 }
 
+#email{
+	font-style: Times New Roman;
+	font-size: 1em;
+	color: black;
+}
+
+#email:hover{
+	color: white;
+	background-color: none;
+	border-radius: 2px;
+}
 
 
 
